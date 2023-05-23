@@ -1,0 +1,62 @@
+Coding environment
+> text editor => https://code.visualstudio.com/ (install)
+> node js => https://nodejs.org/en (install)
+> Gitbash => https://git-scm.com/downloads "(install)
+
+Github Profile > https://github.com/
+
+I am a Full Stack Developer Intern at Edureka. Learning Html, Css, JAvascript, MongoDB, NodeJs,
+ Express js, React js, Looking for opportunities to learn more
+
+ Configure your Git username/email
+ ---------------------------------
+>> Open the command line.
+>> Set your username: git config --global user.name "FIRST_NAME LAST_NAME"
+>> Set your email address: git config --global user.email "MY_NAME@example.com"
+
+
+Application
+---------------------
+Zomato (yur choice) 40% marks
+profile website (portfolio) 5 % marks
+
+Assignment -15 %
+TAsk - 15 %
+
+class performance - 20%
+
+Extension for vs code:
+
+> vscode-icon
+> spellcheck
+> tabnine
+> gitlens
+> githistory
+
+
+Frontend 1(website)
+------------------
+html - raw structure - static
+look and feel (design) static
+bootstrap - framework
+Javascript - dynamic
+
+Frontend 2(Web app)
+---------------
+react- dynamic
+
+MERN 
+MongoDB | Express | React | NodeJs
+
+
+
+
+
+
+
+
+
+
+
+
+
