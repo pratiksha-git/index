@@ -49,6 +49,29 @@ MERN
 MongoDB | Express | React | NodeJs
 
 
+CSD- Cascading style sheet
+===================================
+
+3 ways to define css
+----------------------------
+
+Inline css
+<p style="color: white; background-color: tomato; font-size: 30px; font-family: cursive; ">Delhi, India’s capital territory, is a massive metropolitan area in the country’s north. In Old Delhi, a neighborhood dating to the 1600s, stands the imposing Mughal-era Red Fort, a symbol of India, and the sprawling Jama Masjid mosque, whose courtyard accommodates 25,000 people. Nearby is Chandni Chowk,
+     a vibrant bazaar filled with food carts, sweets shops and spice stalls</p>
+
+
+Internal css 
+<style>
+       body {
+        background-color: green;
+       }
+    </style> 
+
+extenal css
+
+body {
+    background-color: green;
+   }
 
 
 
