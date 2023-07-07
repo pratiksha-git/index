@@ -73,9 +73,74 @@ body {
     background-color: green;
    }
 
+   css selectors
+   --------------------
+   1. class- group of element
+   2. ID - higher preference
+
+   Position:
+   -----------------
+
+   static
+   relative
+   absolute
+   fixed
+   sticky
+
+
+   Display:none; and visibility:hidden difference?
+   ----------------------------------------------------
+
+   display:none; : will not occupy space
+   visibility :hidden; : will occupy space
+
+display : block; : text will be vissible
+visibility: visible; :- text will be visible
+
+Syntax:
+----------------------------:-
+
+.div*2 means 2 div comes-----
+
+flex - one dimentional layout - either rows or column
+
+grid - two dimentional layout - both rows or column
+
+
+flex, container, cross axis vertical, horizontal:- to align itmes space around, flexstart, flex end, flex centrr, space between, space bertween
 
 
 
+bootstrap:-
+-------------------------
+
+Frontend framework - easy and faster
+templates- button, form, card, table, image carousels
+
+advantages
+-----------------------
+easy to use
+Responsive
+Mobile-first  approach
+Browser compatibility
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Second Page</title>
+</head>
+<body>
+</body>
+</html>
+    
 
 
 

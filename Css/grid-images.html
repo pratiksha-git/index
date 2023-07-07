@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+    <style>
+        .gallery{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+        }
+        .gallery > img{
+            width: 100px;
+            height: 100x;
+            object-fit: cover;
+        }
+        .gallery__item--1{
+            grid-column: 1,4;
+        }
+
+        @media only screen and (max-width:700 px) {
+            body{
+                background-color: pink;
+            }
+        }
+        @media only screen and (max-width:900 px) {
+            body{
+                background-color: lightblue;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="gallery">
+        
+            <figure class="gallery__item gallery__item--1">
+                <img
+                src="https://image.shutterstock.com/image-vector/abstract-background-blue-red-white-260nw-1056567815.jpg"
+                alt="gallery image 1"
+                class="gallery__img" 
+                />
+            </figure>
+            <figure class="gallery__item gallery__item--2">
+                <img
+                src="https://image.shutterstock.com/image-vector/abstract-vector-background-waves-3d-260nw-569231599.jpg"
+                alt="gallery image 1"
+                class="gallery__img" 
+                />
+            </figure>
+            <figure class="gallery__item gallery__item--3">
+                <img
+                src="https://image.shutterstock.com/image-vector/abstract-black-polygon-red-light-260nw-1114396982.jpg"
+                alt="gallery image 1"
+                class="gallery__img" 
+                />
+            </figure>
+            <figure class="gallery__item gallery__item--4">
+                <img
+                src="https://image.shutterstock.com/image-vector/creative-doodle-art-header-different-260nw-1021802371.jpg"
+                alt="gallery image 1"
+                class="gallery__img" 
+                />
+            </figure>
+            <figure class="gallery__item gallery__item--5">
+                <img
+                src="https://image.shutterstock.com/image-vector/abstract-black-polygon-red-light-260nw-1114396982.jpg"
+                alt="gallery image 1"
+                class="gallery__img" 
+                />
+            </figure>
+
+        </div>
+
+    </div>
+</body>
+</html>

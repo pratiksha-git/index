@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Second Page</title>
+
+    <style>
+        div{
+            background-color: pink;
+            padding: 20px;
+            text-align: center;
+        }
+        div:hover{
+            background-color: green;
+            color: white;
+        }
+        p{
+            /* display: none; */
+            background-color: lightblue;
+            padding: 10px;
+
+        }
+        h1:hover p{
+            display: block;
+        }
+        input:focus{
+            background-color: rgb(127, 255, 180);
+        }
+        a:link{
+            color: rgb(red, green, blue);
+        }
+        a:visited{
+            color: teal;
+        }
+        a:active{
+            color: rgb(247, 204, 11);
+        }
+        h1:first-child{
+            color: blueviolet;
+        }
+        div:nth-child(1){
+            background-color: yellow;
+        }
+        p:nth-child(2){
+            background-color:red;
+        }
+        ul li:nth-child(2){
+background-color: pink;
+        }
+        :nth-child(2) {
+            padding 50px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+    </p>This nth child 1<p>
+    </p>This nth child 2</p>
+</div>
+    <h1 class="firstchild">First child element</h1>
+    <div>
+        <h1>Hello</h1>
+        <h1>Hi</h1>
+    </div>
+    <p>This going to change the background color</p>
+    <div>Touch me!!</div>
+    <h1>Hover over me to see the p element
+        <p>Have a happy day</p>
+    </h1>
+    <label>FirstName</label>
+    <input type="text" name="firstname" id="firstname"/>
+    <a href="www.google.com" target="_blank">image</a>
+
+    <ul>
+        <li>Apple</li>
+        <li>Samsung</li>
+        <li>Redmi</li>
+        <li>Realme</li>
+    </ul>
+    
+</body>
+</html>
