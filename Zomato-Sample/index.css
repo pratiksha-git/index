@@ -13,6 +13,18 @@
 h1{
     color: white;
 }
+
+#login{
+    width: 600%;
+    margin-left: 510%;
+    margin-top: -16%;
+}
+
+#login > a{
+    font-size: 20px;
+    color: #ffffff;
+    font: normal normal medium 16px/25px Poppins;
+}
 #social{
    float: right;
 }
@@ -45,22 +57,29 @@ h1{
 }
 #heading{
     position: absolute;
-    margin-top: 22%;
-    margin-left: 26%;
+    margin-top: 19%;
+    margin-left: 29%;
     color: white;
     font: normal normal 600 36px/55px Poppin;
     
 }
 #dropdown{
     position: absolute;
-    margin-left: 35%;
-    margin-top: 28%;
+    margin-left: 34%;
+    margin-top: 24%;
+    width: 100%;
 }
 
 select{
     height: 42px;
+    width: 17%;
     font-size: 20px;
-    text-align: center;
+    text-align: left;
+    font: normal normal normal 15px/23px Poppins;
+    letter-spacing: 0px;
+    color: #636F88;
+    opacity: 1;
+
 }
 
 #quicksearch{
